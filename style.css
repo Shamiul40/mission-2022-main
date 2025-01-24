@@ -2,4 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body p{
+    color: #3e3e3e;
+}
+.stay-focused-section{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    max-height: 700px;
+    gap: 120px;
+}
+
+
+.stay-focused-img img{
+    width: 100%;
+    max-width: 426px;
+    max-height: 623px;
+}
+
+.stay-focused-content{
+    /* max-width: 520px; */
+}
+.stay-focused-content h1{
+    font-family: "Yeseva One", serif;
+    font-size: 3rem;
+    color: #333333;
+    margin: 25px 0;
+    border-left: 1px solid #FF5959;
+    border-left-width: 4px;
+    padding: 0 10px;
+    border-end-end-radius: 10px;
+    /* line-height: 45px; */
+}
+.explore-button{
+    padding: 12px 35px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    border-style: none;
+    color: #fff;
+    margin: 25px 0;
+}
+
+/* stay-focused-section responsive */
+@media screen and (max-width: 576px) {
+    .stay-focused-section{
+        flex-direction: column-reverse;
+        margin-top: 210px;
+    }
+    .stay-focused-content{
+        margin-top: -70px;
+    }
+    
+}
+
+
+/* my mission section related style */
+.my-mission-section{
+    margin: 25px auto;
+
+}
+.my-mission{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+
+}
+.my-mission-section h1{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 3rem;
+
+}
+.my-mission-card{
+    width: 360px;
+    height: 376px; 
+    background-color: #FF5959;
+    border-radius: 10px;
+    padding: 25px;
+}
+.my-mission-card img{
+    width: 100%;
+    max-width: 140px;
+    max-height: 140px; 
+}
+.my-mission-card h3{
+   margin: 20px 0;
+}
+.card-1{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.card-2{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.card-3{
+    background-color: rgba(255, 244, 214, 1);
+}
+
+@media screen and (max-width: 576px){
+    .my-mission{
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
